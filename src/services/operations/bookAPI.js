@@ -2,7 +2,6 @@ import { toast } from "react-hot-toast"
 
 import { apiConnector } from "./apiconnector"
 import { booksEndpoints } from "../apis"
-import { useNavigate } from "react-router-dom";
 
 const { BOOKS_API } = booksEndpoints;
 

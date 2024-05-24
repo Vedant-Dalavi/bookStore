@@ -7,7 +7,6 @@ const home = "/";
 
 const Navbar = () => {
   const { token } = useSelector((state) => state.auth);
-  const { user } = useSelector((state) => state.profile);
   const location = useLocation();
 
   const dispatch = useDispatch();

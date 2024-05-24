@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getAllBooks } from "../../services/operations/bookAPI";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import BookCard from "./BookCard";
 import { useNavigate } from "react-router-dom";
 

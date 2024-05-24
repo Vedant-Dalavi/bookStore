@@ -1,11 +1,10 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import { createNewBook } from "../../services/operations/bookAPI";
 import { useNavigate } from "react-router-dom";
 
 const CreateBook = () => {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const { token } = useSelector((state) => state.auth);
