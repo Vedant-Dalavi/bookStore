@@ -33,8 +33,8 @@ To install this project, follow these steps:
     ```
 
 3. Install dependencies for the frontend:
+   on main directory
     ```bash
-    cd frontend
     npm install
     ```
 
@@ -44,8 +44,11 @@ To run the application locally, follow these steps:
 
 **Start the frontend and backend
 App PORT=4000 or any free PORT Locally in .env file 
-npm run dev
 
+on main directory
+ ```bash
+ npm run dev
+  ```
 The backend server will run on `http://localhost:4000` and the frontend will run on `http://localhost:3000`.
 
 
