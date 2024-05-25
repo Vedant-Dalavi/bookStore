@@ -109,8 +109,6 @@ To contribute to this project, follow these steps:
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Create a new Pull Request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 If you want to contact me, you can reach me at [vedantdalvi59@gmail.com].
